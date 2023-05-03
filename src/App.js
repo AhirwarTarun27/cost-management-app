@@ -1,6 +1,6 @@
 import Expense from './components/Expense';
 
-function App() {
+const App = () => {
   const expense = [
     {
       title: 'Fan',
@@ -25,6 +25,6 @@ function App() {
       <Expense items={expense} />
     </div>
   );
-}
+};
 
 export default App;
